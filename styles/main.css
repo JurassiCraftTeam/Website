@@ -2,7 +2,8 @@ body {
   margin: 0px;
   padding: 0px;
   margin-top: 0px;
-  background-color: #e2e2e2;
+  background-color: #020232;
+  overflow-x: hidden;
 }
 
 
@@ -13,7 +14,7 @@ body {
   font-size: 80px;
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: white;
+  background-color: #3f8738;
 }
 .header #content {
   position: relative;
@@ -51,10 +52,13 @@ nav a{
 
 
 .content {
-  background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: radial-gradient(rgba(127, 223, 255, 0.15), rgba(127, 223, 255, 0.1), rgba(127, 223, 255, 0.15));
+  border-top: 30px solid white;
+  border-bottom: 5px solid white;
+  color: #9ec3ff;
   margin: 30px 15% 0px;
   padding: 40px;
+  z-index: 6;
 }
 .content p {
   font-family: source sans pro;
@@ -75,6 +79,6 @@ nav a{
 }
 .parallax img {
   position: absolute;
-  z-index: 4;
+  z-index: 6;
   overflow: hidden;
 }
