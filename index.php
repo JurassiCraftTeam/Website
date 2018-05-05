@@ -20,9 +20,11 @@
 
       <!--Scripts-->
     <script src="scripts/main.js"></script>
+    <script src="scripts/parallax.js"></script>
   </head>
 
   <body>
     <?php include 'modules/navbar.html'?>
+    <br>
   </body>
 </html>
