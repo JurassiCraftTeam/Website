@@ -32,14 +32,12 @@ body {
   right: -80px;
   width: 250px;
 }
-
 nav {
   text-align: center;
   width: 100%;
   font-family: source sans pro;
   font-size: 24;
 }
-
 nav a{
   color: white;
   background-image: url(../images/plank2.png);
@@ -50,12 +48,33 @@ nav a{
   z-index: 3;
 }
 
-.parallax {
-  top: auto;
-  position: fixed;
-  background-color: black;
-  color: white;
-  width: 100%;
+
+
+.content {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 30px 15% 0px;
+  padding: 40px;
+}
+.content p {
+  font-family: source sans pro;
+  padding: 25px 10%;
+}
+.content h1 {
+  font-family: jurassicFont;
+  font-size: 60px;
   text-align: center;
-  font-size: 30px;
+  margin: 0px;
+  font-weight: normal;
+}
+
+
+
+.parallax {
+  position: relative;
+}
+.parallax img {
+  position: absolute;
+  z-index: 4;
+  overflow: hidden;
 }
