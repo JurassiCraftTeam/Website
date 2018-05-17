@@ -1,0 +1,115 @@
+.splash {
+  opacity: .99;
+  width:100vw;
+  background-color:white;
+  height:800px;
+  position:absolute;
+  text-align:left;
+  margin-top: -100px;
+}
+.splash img {
+  margin-top:150px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+.splash .layer2 {
+  width:4000px;
+  height:250px;
+  background-color:#0f0f76;
+  position:absolute;
+  margin-top:500;
+}
+.splash .layer2 img {
+  width: 100%;
+  margin-top:-270;
+}
+.splash .layer3 {
+  width:4000px;
+  height:300px;
+  background-color:#020232;
+  position:absolute;
+  margin-top:900;
+}
+.splash .layer3 img {
+  width: 100%;
+  margin-top:-900;
+}
+
+@media only screen and (max-width: 2000px) {
+  .splash {
+    width:100vw;
+    background-color:white;
+    height:700px;
+    position:absolute;
+    text-align:left;
+  }
+  .splash img {
+    margin-top:150px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .splash .layer2 {
+    width:2000px;
+    height:250px;
+    background-color:#0f0f76;
+    position:absolute;
+    margin-top:300;
+  }
+  .splash .layer2 img {
+    width: 100%;
+    margin-top:-130;
+  }
+  .splash .layer3 {
+    width:2000px;
+    height:300px;
+    background-color:#020232;
+    position:absolute;
+    margin-top:600;
+  }
+  .splash .layer3 img {
+    width: 100%;
+    margin-top:-500;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  .splash {
+    width:100vw;
+    background-color:white;
+    height:300px;
+    position:absolute;
+    text-align:left;
+  }
+  .splash img {
+    width: 90vw;
+    margin-top:60px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .splash .layer2 {
+    width:2000px;
+    height:250px;
+    background-color:#0f0f76;
+    position:absolute;
+    margin-top:100;
+
+  }
+  .splash .layer2 img {
+    width: 100%;
+    margin-top:-130;
+  }
+  .splash .layer3 {
+    width:2000px;
+    height:300px;
+    background-color:#020232;
+    position:absolute;
+    margin-top:300;
+  }
+  .splash .layer3 img {
+    width: 100%;
+    margin-top:-500;
+  }
+}

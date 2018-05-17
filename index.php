@@ -18,34 +18,25 @@
       <!--Styles-->
     <link href="styles/main.css" rel="stylesheet"></link>
     <link href="styles/fonts.css" rel="stylesheet"></link>
+    <link href="styles/home.css" rel="stylesheet"></link>
+    <link href="styles/navbar.css" rel="stylesheet"></link>
 
       <!--Scripts-->
     <script src="scripts/main.js"></script>
     <script src="scripts/parallax.js"></script>
+    <script src="scripts/nav.js"></script>
+    <script src="scripts/infopages.js"></script>
   </head>
 
   <body>
-
-    <div class="splash">
-      <img src="images/JC_Title_Red.png">
-
-      <div class="parallax" id="0.3">
-        <div class="layer2">
-          <img src="images/farthest.png">
-        </div>
-      </div>
-      <div class="parallax" id="0.65">
-        <div class="layer3">
-          <img src="images/middle.png">
-        </div>
-      </div>
-    </div>
-
-    <br><br><br><br><br><br><br><br><br>
-
-
-    <div class="parallax" id="0.8" style="margin-top: 41%;z-index:6;">
-      <?php include 'modules/landingInfo.html' ?>
-    </div>
+    <?php
+      if(isset($_GET["page"])) {
+        $location = explode(',', $_GET["page"]);
+        $url = 'pages/' . $location[0] . '.php';
+        include $url;
+      }else{
+        include 'pages/home.php';
+      }
+    ?>
   </body>
 </html>
