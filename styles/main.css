@@ -66,57 +66,59 @@ button:hover {
 .cardgroup {
   width: 90%;
   margin: 0 auto;
-  background: rgba(66, 134, 244, 0.5);
-  margin: 0 auto;
   align-items: center;
   display: flex;
   justify-content: center;
 }
-.card {
+.card, .tallcard{
   width: 300px;
   height: 300px;
   color: #cef6ff;
   position: relative;
-  background-color: rgba(127, 223, 255, 0.8);
-  margin: 4px;
+  background-color: rgba(127, 223, 255, 0.2);
   transition-duration: 0.3s;
+  margin: 16 auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 .card:hover {
   -webkit-transition: box-shadow .4s; /* Safari */
   transition: box-shadow .4s;
-  box-shadow: inset 0 300px 0 0 rgba(127, 223, 255, 0.8);
+  box-shadow: inset 0 300px 0 0 rgba(127, 223, 255, 0.2);
   color: white;
 }
 .tallcard {
   float: left;
-  width: 300px;
-  height: 604px;
-  color: #cef6ff;
-  position: relative;
-  background-color: rgba(127, 223, 255, 0.8);
-  margin: 4px;
-  transition-duration: 0.3s;
+  height: 634px;
 }
 .tallcard:hover {
   -webkit-transition: box-shadow .4s; /* Safari */
   transition: box-shadow .4s;
-  box-shadow: inset 0 604px 0 0 rgba(127, 223, 255, 0.8);
+  box-shadow: inset 0 604px 0 0 rgba(127, 223, 255, 0.2);
   color: white;
 }
-.card h1, .tallcard h1 {
-  font-family: jurassicFont;
-  font-size: 60px;
+.card p, .tallcard p {
+  padding: 20px;
   text-align: center;
-  font-weight: normal;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -90%);
+  margin: auto;
+  font-family: sans-serif;
 }
-.card img, .tallcard img {
+.card h1, .tallcard h1 {
+  font-family: Big John;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  top: 24;
+  left: 50%;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  transform: translate(-50%, -90%);
+  background-color: white;
+  color: rgba(127, 223, 255, 0.8);
+}
+.card:hover h1, .tallcard:hover h1 {
+  color: rgba(127, 223, 255, 1.0);
 }
 
 
