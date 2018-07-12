@@ -1,11 +1,23 @@
 function goHome() {
-  window.location.href = "http://skyforge.site";
+  window.location.href = "http://localhost/";
 }
 function goDownloads() {
-  window.location.href = "http://skyforge.site/?page=downloads";
+  window.location.href = "http://localhost/?page=downloads";
 }
 function goWiki() {
-  window.location.href = "http://skyforge.site/?page=dinodex";
+  window.location.href = "http://localhost/?page=wikilanding";
+}
+function downloadJC() {
+  window.location.href = "http://localhost/?page=jurassicraft";
+}
+function goDevdex() {
+  window.location.href = "http://localhost/?page=devdex";
+}
+function goDinodex() {
+  window.location.href = "http://localhost/?page=dinodex";
+}
+function goBlockdex() {
+  window.location.href = "http://localhost/?page=blockdex";
 }
 
 function getScrollTop() {
@@ -27,7 +39,7 @@ function getScrollTop() {
 function updateNav() {
   var box = document.getElementById('navbar');
   scroll = getScrollTop();
-  if (scroll >= 500) {
+  if (scroll >= 300) {
     box.style.top = "0";
   }
   else {

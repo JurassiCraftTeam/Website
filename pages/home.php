@@ -15,6 +15,6 @@
   </div>
 </div>
 
-<br>
+<br><br>
 
 <?php include 'modules/landingInfo.html' ?>

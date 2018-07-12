@@ -20,6 +20,8 @@
     <link href="styles/fonts.css" rel="stylesheet"></link>
     <link href="styles/home.css" rel="stylesheet"></link>
     <link href="styles/navbar.css" rel="stylesheet"></link>
+    <link href="styles/downloads.css" rel="stylesheet"></link>
+    <link href="styles/dinodex.css" rel="stylesheet"></link>
 
       <!--Scripts-->
     <script src="scripts/main.js"></script>
@@ -33,7 +35,11 @@
       if(isset($_GET["page"])) {
         $location = explode(',', $_GET["page"]);
         $url = 'pages/' . $location[0] . '.php';
-        include $url;
+        if(file_exists($url)) {
+          include $url;
+        } else {
+          include 'modules/pagenotfound.php';
+        }
       }else{
         include 'pages/home.php';
       }

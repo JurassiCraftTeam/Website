@@ -1,0 +1,34 @@
+.description{
+  width: 450px;
+  height: 100%;
+  right: 0px;
+  top: 0px;
+  background-color: rgba(127, 223, 255, 0.2);
+  position: fixed;
+  padding-top: 120px;
+}
+.description h1{
+  font-family: Big John;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -90%);
+  background-color: white;
+  color: rgba(127, 223, 255, 0.8);
+}
+.description p {
+  padding: 10%;
+  color: #cef6ff;
+  font-size: 18;
+  font-family: source sand pro;
+}
+.stats{
+  width: 100%;
+  bottom: 0px;
+  position: fixed;
+  z-index: -1;
+  height: 300px;
+}
