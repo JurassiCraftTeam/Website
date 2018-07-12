@@ -7,6 +7,6 @@
 ?>
 <br><br><br><br><br><br><br><br><br><br><br>
 <div style = "text-align: middle; top: 100%; color: white; font-family: Big John;">
-  <h1>This    is    a    jurrasic    embarassment</h1>
+  <h1>This    is    a    jurassic    embarassment</h1>
   <center>The page was lost in time</center>
 </div>
