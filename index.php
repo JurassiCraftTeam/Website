@@ -22,6 +22,7 @@
     <link href="styles/navbar.css" rel="stylesheet"></link>
     <link href="styles/downloads.css" rel="stylesheet"></link>
     <link href="styles/dinodex.css" rel="stylesheet"></link>
+    <link href="styles/footer.css" rel="stylesheet"></link>
 
       <!--Scripts-->
     <script src="scripts/main.js"></script>

@@ -18,3 +18,7 @@
 <br><br>
 
 <?php include 'modules/landingInfo.html' ?>
+
+<br>
+
+<?php include 'modules/footer.html'?>

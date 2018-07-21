@@ -217,6 +217,11 @@ button:hover {
   position: absolute;
 }
 
+.icon{
+  width: 64px;
+  margin: 5px;
+}
+
 .background {
   width: 90%;
   margin: 0 auto;

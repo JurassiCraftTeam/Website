@@ -19,8 +19,6 @@ if(isset($_GET["page"])) {
   if(strpos($_GET["page"], ',') !== false) {
     $url = 'modules/dinoinfo.php';
     include $url;
-  } else {
-    include 'modules/pagenotfound.php';
   }
 }else{
   include 'modules/pagenotfound.php';
