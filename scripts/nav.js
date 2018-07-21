@@ -1,23 +1,23 @@
 function goHome() {
-  window.location.href = "http://localhost/";
+  window.location.href = "http://" + domain + "/";
 }
 function goDownloads() {
-  window.location.href = "http://localhost/?page=downloads";
+  window.location.href = "http://" + domain + "/?page=downloads";
 }
 function goWiki() {
-  window.location.href = "http://localhost/?page=wikilanding";
+  window.location.href = "http://" + domain + "/?page=wikilanding";
 }
 function downloadJC() {
-  window.location.href = "http://localhost/?page=jurassicraft";
+  window.location.href = "http://" + domain + "/?page=jurassicraft";
 }
 function goDevdex() {
-  window.location.href = "http://localhost/?page=devdex";
+  window.location.href = "http://" + domain + "/?page=devdex";
 }
 function goDinodex() {
-  window.location.href = "http://localhost/?page=dinodex";
+  window.location.href = "http://" + domain + "/?page=dinodex";
 }
 function goBlockdex() {
-  window.location.href = "http://localhost/?page=blockdex";
+  window.location.href = "http://" + domain + "/?page=blockdex";
 }
 
 function getScrollTop() {

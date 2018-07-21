@@ -33,6 +33,8 @@
 
   <body>
     <?php
+      $ini = parse_ini_file("config/domain.ini");
+      echo("<script>domain = '" . $ini['domain'] . "'</script>");
       if(isset($_GET["page"])) {
         $location = explode(',', $_GET["page"]);
         $url = 'pages/' . $location[0] . '.php';
