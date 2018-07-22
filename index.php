@@ -7,7 +7,8 @@
       <!--Meta-->
     <meta content="Minecraft mod and community" name="description"></meta>
     <meta content="SkyForge_" name="author"></meta>
-    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
 
       <!--Favicon-->
     <!--     <link href="images/Icons/favicon.ico" rel="shortcut icon"></link>     -->
