@@ -38,13 +38,17 @@ function getScrollTop() {
 
 function updateNav() {
   var box = document.getElementById('navbar');
+  var arrow = document.getElementById('scroll');
   scroll = getScrollTop();
   if (scroll >= 300) {
     box.style.top = "0";
+    arrow.style.color = "#020232";
   }
-  else {
-    box.style.top = "-100";
-  }
+}
+
+function extendNav() {
+  var box = document.getElementById('navbar');
+  box.style.top = "0";
 }
 
 window.onscroll = function() {
@@ -55,4 +59,7 @@ window.onscroll = function() {
 
 window.onload = function() {
   updateNav();
+  var box = document.getElementById('navbar');
+  box.style.top = "-100";
+  setTimeout(extendNav, 2000);
 };

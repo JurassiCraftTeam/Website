@@ -15,6 +15,8 @@
   </div>
 </div>
 
+<button id="scroll" style="background: none; transition-duration: 0.6s; position: absolute; left: 49%; top: 93%; color: white; font-size: 30px;" onclick="scrollDown()">&#x25BC;</button>
+
 <br><br>
 
 <?php include 'modules/landingInfo.html' ?>
