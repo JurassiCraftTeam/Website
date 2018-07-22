@@ -11,6 +11,11 @@
       </div>
     </div>
   </div>
+
+  <span class="nomobile">
+    <br>
+  </span>
+
   <div class="column">
     <div class="cardlist">
       <div class="tallcard" style="width: 600px;" onclick="goBlockdex();">
@@ -19,6 +24,11 @@
       </div>
     </div>
   </div>
+
+  <span class="nomobile">
+    <br>
+  </span>
+
   <div class="column">
     <div class="cardlist">
       <div class="tallcard" style="width: 600px;" onclick="goDevdex();">

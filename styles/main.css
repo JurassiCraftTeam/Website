@@ -34,6 +34,10 @@ h1 {
   padding: 25px 10%;
 }
 
+a{
+  color: white;
+}
+
 button {
   border: none;
   text-decoration: none;
@@ -231,7 +235,22 @@ button:hover {
   justify-content: center;
 }
 
+.parallax {
+  position: relative;
+}
+
+.parallax img {
+  position: absolute;
+  z-index: 3;
+  overflow: hidden;
+  }
+
 @media only screen and (max-device-width: 480px) {
+  body {
+      overflow-x: hidden;
+      width: 100%;
+  }
+
   .content {
     background: radial-gradient(rgba(127, 223, 255, 0.15), rgba(127, 223, 255, 0.1), rgba(127, 223, 255, 0.15));
     border-top: 30px solid white;
@@ -252,14 +271,11 @@ button:hover {
     margin: 0px;
     font-weight: normal;
   }
-}
-
-
-.parallax {
-  position: relative;
-}
-.parallax img {
-  position: absolute;
-  z-index: 3;
-  overflow: hidden;
+  .nomobile {
+    visibility: hidden;
+    display: none;
+  }
+  .card.talcard {
+    float: over;
+  }
 }
