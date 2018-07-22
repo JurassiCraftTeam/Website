@@ -6,7 +6,15 @@
   <?php echo("<img src='images/dinoShowcase/" . $page[1] . ".png' alt='' style='width: 65%;z-index=-1;'></img>")?>
   <div class="description">
     <h1>Dino Description</h1>
-    <p><?php echo $ini['desc']; ?></p>
+    <p>
+      <?php
+        if($ini['desc']){
+          echo $ini['desc'];
+        } else {
+          echo('Oops! It looks like we are missing some information! If you&#39;d like to contribute to the wiki click <a href="mailto:wiki@jurassicraftmod.com">here</a>!');
+        }
+      ?>
+    </p>
   </div>
   <div class="stats">
     <div class="cardgroup" style="width: 50%;margin-left: 0px;">
