@@ -1,9 +1,9 @@
 <div style="margin-left: 480px;">
   <?php
   $page = explode(",",$_GET['page']);
-  $ini = parse_ini_file("wiki/dinodexpages/" . $page[1] . ".ini");
+  $ini = parse_ini_file("wiki/dinodexpages/" . $page[1] . "/" . $page[2] . ".ini");
   ?>
-  <?php echo("<img src='images/dinoShowcase/" . $page[1] . ".png' alt='' style='width: 65%;z-index=-1;'></img>")?>
+  <?php echo("<img src='images/dinoShowcase/" . $page[2] . ".png' alt='' style='width: 65%;z-index=-1;'></img>")?>
   <div class="description">
     <h1>Dino Description</h1>
     <p>
